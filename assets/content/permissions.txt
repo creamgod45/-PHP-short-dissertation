@@ -1,0 +1,50 @@
+    [add],[bot],[use],[done],[date],[data],[edit],[stop],[true],[view],[user],[false],[action],[cancel],[delete],[default],[package],[publish],[setting],[version],
+    [visibility],[permission],[profile],[project],[administration],[status],[owner],[give],[download],[set],[name],[        ],[file],[type],[virtual],[code],
+    [change],[command],[copyright]
+    // name: bot manager
+    // version: 1.0
+    // another: LaiFu
+    // description: none
+    // copyright: Copyright © 2018 LaiFu. All rights reserved.
+    permission ($id, $username, $permission, $group, $level, $record, $administration, $status, $update) {
+
+        - view.profile ;                    // 預覽個人檔案權限
+        - view.profile.project ;            // 預覽個人檔案專案權限
+        - view.profile.visibility ;         // 預覽隱藏的個人檔案權限
+        - view.bot.project ;                // 預覽Bot專案權限
+        - view.bot.project.code ;           // 預覽Bot專案程式碼權限
+        - view.bot.project.file ;           // 預覽Bot專案檔案權限
+
+        - change.user.permission ;          // 改變 用戶 權限
+        - change.administration ;           // 改變 管理員 權限
+        - change.profile.data ;             // 改變 用戶資料 權限
+        - change.prpfile.visibility ;       // 改變 隱藏的用戶 權限
+        - change.user.project.max ;         // 改變 用戶專案數量限制 權限
+        - change.owner.bot ;                // 改變 Bot 擁有者 權限
+        - use.set.name.bot ;                // 改變 Bot 名稱 權限
+        - use.set.description.bot ;         // 改變 Bot 介紹 權限
+        - use.set.version.bot ;             // 改變 Bot 版本 權限
+
+        - use.add.bot ;                     // 增加 Bot 權限
+        - use.delete.bot ;                  // 刪除 Bot 權限
+        - use.edit.bot ;                    // 編輯 Bot 權限
+        - use.action.bot ;                  // 啟動 Bot 權限
+        - use.stop.bot ;                    // 停止 Bot 權限
+        - use.owner.give ;                  // 轉移 Bot 所有權 權限
+        - use.public.bot ;                  // 共用 Bot 權限
+        - use.download.bot ;                // 下載 Bot 權限
+        - use.visibility.bot ;              // 隱藏 Bot 權限
+        - use.package.bot ;                 // 封裝 Bot 權限
+        - use.package.file.type ;           // 封裝 檔案類型 權限
+
+        - user.edit.name ;                  // 編輯 名稱 權限
+        - user.edit.description ;           // 編輯 介紹 權限
+        - user.add.virtual.user ;           // 新增 虛擬用戶 權限
+        - user.delete.virtual.user ;        // 刪除 虛擬用戶 權限
+
+    }
+
+page = 2
+$string = 10;
+
+ 

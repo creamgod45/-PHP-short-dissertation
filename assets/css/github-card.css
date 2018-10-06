@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik|Acme|Jua|Questrial|Roboto:100,100i,300,300i,400,400i,500,500i,700,900,900i');
+    /*
+        project/github-card by CreamGod45
+        maoshianje.lionfree.net/project/github-card | @creamgod45
+        
+    */
+    
+    /* font */
+
+        .jua{font-family: 'Jua';}
+        
+        .acme{font-family: 'Acme';}
+        
+        .roboto{font-family: 'Roboto';}
+        
+        .questrial{font-family: 'Questrial';}
+        
+        .rubik{font-family: 'Rubik';}
+    
+    /* color */
+
+        .black{color: black;}
+
+        .white{color: white;}
+
+        .red{color:#d62c26;}
+
+        .darkred{color: #990500;}
+
+        .orange{color:#ff9914;}
+
+        .darkorange{color: #ff7f0f;}
+
+        .green{color: #1e962e;}
+
+        .drakgreen{color: #14661f;}
+
+        .AliceBlue{color: #35d3ff;}
+        
+        .blue{color: #3456ff;}
+
+        .darkblue{color: #143072;}
+
+        .purple{color: #9316f9;}
+
+        .drakpurple{color: #570d93;}
+
+        .gray {color: #33353a;}
+        
+        .drakgray {color: #464646;}
+        
+        .pink{color: #ff63d0;}
+
+        .darkpink{color: #ff00b2;}
+
+        .facebooks{color:#3b5998;}
+
+        .youtubes{color: #cc181e;}
+
+        .githubs{background: #4078c0}
+
+    /* background */
+
+        .bg-black{background: black;}
+
+        .bg-white{background: white;}
+
+        .bg-red {background: #d62c26;}
+    
+        .bg-darkred {background: #990500;}
+    
+        .bg-orange {background: #ff9914;}
+    
+        .bg-darkorange {background: #ff7f0f;}
+    
+        .bg-green {background: #1e962e;}
+    
+        .bg-drakgreen {background: #14661f;}
+    
+        .bg-AliceBlue {background: #35d3ff;}
+    
+        .bg-blue {background: #3456ff;}
+    
+        .bg-darkblue {background: #143072;}
+    
+        .bg-purple {background: #9316f9;}
+    
+        .bg-drakpurple {background: #570d93;}
+    
+        .bg-gray {background: #33353a;}
+    
+        .bg-drakgray {background: #464646;}
+
+        .bg-pink{background: #ff63d0;}
+
+        .bg-darkpink{background: #ff00b2;}
+
+        .bg-facebooks{background:#3b5998;}
+        
+        .bg-youtubes{background: rgb(35,35,35);}
+        
+        .bg-githubs{background: #4078c0}
+
+    /* font */
+
+        .align-center{text-align: center;}
+
+        .align-left{text-align: left;}
+
+        .align-right{text-align: right;}
+
+        .fsize-24{font-size: 24px}
+
+        .fsize-20{font-size: 20px}
+
+        .fsize-18{font-size: 18px}
+
+        .fsize-16{font-size: 16px}
+
+        .fsize-12{font-size: 12px}
+
+        .bold-100{font-weight: 100}
+
+        .bold-200{font-weight: 200}
+
+        .bold-300{font-weight: 300}
+
+        .bold-400{font-weight: 400}
+
+        .bold-500{font-weight: 500}
+
+        .bold-600{font-weight: 600}
+
+        .bold-700{font-weight: 700}
+
+        .bold-800{font-weight: 800}
+    
+        .bold-900{font-weight: 900}
+
+        .bold-bold{font-weight: bold}
+
+        .bold-bolder{font-weight: bolder}
+
+        .text-shadow{text-shadow: 2px 2px gray;}
+
+    /* width */
+    
+        .width-10{width: 10%;}
+
+        .width-15{width: 15%;}
+
+        .width-20{width: 20%;}
+
+        .width-25{width: 25%;}
+
+        .width-30{width: 30%;}
+
+        .width-35{width: 35%;}
+
+        .width-40{width: 40%;}
+
+        .width-45{width: 45%;}
+
+        .width-50{width: 50%;}
+
+        .width-55{width: 55%;}
+
+        .width-60{width: 60%;}
+
+        .width-65{width: 65%;}
+
+        .width-70{width: 70%;}
+
+        .width-75{width: 55%;}
+
+        .width-80{width: 80%;}
+
+        .width-85{width: 85%;}
+
+        .width-90{width: 90%;}
+
+        .width-95{width: 95%;}
+
+        .width-100{width: 100%;}
+
+    /* border */
+
+        .radius{border-radius: 3.5px;}
+        
+        .radius-100{border-radius: 100px;}
+
+        .border-s{border-top:solid 8px #33353a;-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.7);-moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.7);box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.7);}
+
+    /* layout */
+
+        .padding-16{padding: 16px}
+
+        .quote{border-left: solid 5px #3456ff;padding-left: 16px;}
+
+        nav.menu {position: fixed;top: 0px;left: 0px;display: block;width: 100%;padding: 8px;z-index: 998}
+
+        .display-block{display: block}
+
+
+    /* ID */
+
+        #githubs{display: none;padding: 16px;margin: auto;text-align: center;}
+    
+        #git-cord{display: block;margin: auto;text-align: center;width: 350px}
+
+        #userimg{border-radius: 100px;}
+        
+    
