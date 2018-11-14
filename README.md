@@ -138,7 +138,8 @@
 ```
 #### 登出系統
 
-```
+```php
+<?php
     if(@$_GET["auth"] == "logout"){
         $user = @$_SESSION['user'];
         @$sql = "INSERT INTO `crash-log`(`user`, `message`, `source`, `backup`, `GM`, `reg_ip`, `reg_date`) VALUES ('$user','登出成功','Logout','false','false','$myip','$today')";
@@ -154,7 +155,7 @@
         unset($_SESSION['update_date']);
         header('refresh:0;url="index.php"');
     }
-
+?>
 ```
 
 ### 支援和聯絡
