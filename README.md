@@ -17,7 +17,7 @@
  - ```update_date``` **更新時間**
 
 ### 系統功能
-
+#### 登入註冊系統
 ```php
 <?php
     @$email = $_POST["email"];
@@ -136,13 +136,28 @@
         }
 ?>
 ```
+#### 登出系統
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+```
+    if(@$_GET["auth"] == "logout"){
+        $user = @$_SESSION['user'];
+        @$sql = "INSERT INTO `crash-log`(`user`, `message`, `source`, `backup`, `GM`, `reg_ip`, `reg_date`) VALUES ('$user','登出成功','Logout','false','false','$myip','$today')";
+        $conn->query($sql);
+        unset($_SESSION['user']);
+        unset($_SESSION['nick']);
+        unset($_SESSION['email']);
+        unset($_SESSION['url']);
+        unset($_SESSION['Record']);
+        unset($_SESSION['GM']);
+        unset($_SESSION['reg_ip']);
+        unset($_SESSION['reg_date']);
+        unset($_SESSION['update_date']);
+        header('refresh:0;url="index.php"');
+    }
 
-### Jekyll Themes
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/creamgod45/PHP-short-dissertation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 支援和聯絡
 
-### Support or Contact
+如果有遇到[問題]可以詢問，我們會給予你相關的解答或更新
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
