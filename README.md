@@ -1,8 +1,20 @@
 ## PHP實作之動態網頁淺談
 
-You can use the [editor on GitHub](https://github.com/creamgod45/PHP-short-dissertation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### - GET
+ - ```user``` **前往用戶資料**
+ -  ```manager``` **前往程式管理 **
+ - ```notfication``` **前往警訊通知**
+ - ```debug``` **前往錯誤排解**
+### - SESSION
+ - ```user```
+ - ```nick```
+ - ```email```
+ - ```url```
+ - ```Record```
+ - ```GM```
+ - ```reg_ip```
+ - ```reg_date```
+ - ```update_date```
 
 ### Markdown
 
