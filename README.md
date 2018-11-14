@@ -2,23 +2,23 @@
 
 ### - GET
  - ```user``` **前往用戶資料**
- -  ```manager``` **前往程式管理 **
+ -  ```manager``` **前往程式管理**
  - ```notfication``` **前往警訊通知**
  - ```debug``` **前往錯誤排解**
 ### - SESSION
- - ```user```
- - ```nick```
- - ```email```
- - ```url```
- - ```Record```
- - ```GM```
- - ```reg_ip```
- - ```reg_date```
- - ```update_date```
+ - ```user``` **帳號**
+ - ```nick``` **暱稱**
+ - ```email``` **信箱**
+ - ```url``` **個人專案檢視網址**
+ - ```Record``` **紀錄**
+ - ```GM``` **管理員**
+ - ```reg_ip``` **註冊IP**
+ - ```reg_date``` **註冊時間**
+ - ```update_date``` **更新時間**
 
-### Markdown
+### 系統功能
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
 
 ```markdown
 Syntax highlighted code block
