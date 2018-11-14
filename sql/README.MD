@@ -1,1 +1,11 @@
 # 資料庫匯入資料
+ - ## 樹狀結構
+  - ###  ```database.sql``` SQL 儲存式檔案
+    - #### ADD ```crash-log``` Table
+    - #### ADD ```project``` Tabl
+    - #### ADD ```username``` Table
+  - ###  ```sql.inc.php``` MySQL 連接API檔案
+    - #### ```$servername``` 伺服器IP
+    - #### ```$username``` 帳號
+    - #### ```$passwords``` 密碼
+    - #### ```$dbname``` 資料庫名稱
