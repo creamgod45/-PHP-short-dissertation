@@ -18,4 +18,12 @@
 	- ```main.js``` Main Model v1.0
 		- Author : CreamGod45
 		- Version : v1.0 
-	- ```jquery-ui.min.css``` - ```jquery-ui.min.js``` - ```jquery-ui.structure.min.css``` - ```jquery-ui.theme.min.css``` - ```jquery.js``` - ```jquery.min.js```
+	- ```jquery-ui.min.css``` - ```jquery-ui.min.js``` - ```jquery-ui.structure.min.css``` - ```jquery-ui.theme.min.css```
+		- Author : jQuery UI
+		- Version : v1.12.1
+	- ```jquery.js``` - ```jquery.min.js```
+		- Author : jQuery
+		- Version : v3.3.1
+	- ```bootstrap.js``` - ```bootstrap.min.js```
+		- Author : bootstrap
+		- Version : v4.1.1
