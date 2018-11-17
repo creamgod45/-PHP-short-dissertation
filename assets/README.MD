@@ -27,3 +27,5 @@
 	- ```bootstrap.js``` - ```bootstrap.min.js```
 		- Author : bootstrap
 		- Version : v4.1.1
+- ## content
+	- ```permissions.txt``` [已失效]權限分布的規劃
