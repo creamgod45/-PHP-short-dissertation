@@ -1,0 +1,21 @@
+# 網站素材資源
+- ## css
+	- ```bootstrap.css``` - ```bootstrap.min.css``` [Bootstrap v4.1.1](https://getbootstrap.com/docs/4.1/getting-started/download/)
+		- Author : bootstrap
+		- Version : v4.1.1
+	- ```normalize.css``` [Normalize](https://necolas.github.io/normalize.css/8.0.1/normalize.css)
+		- Author : Normalize.css
+		- Version : v8.0.1
+	- ```card.css``` Card Model v1.0
+		- Author : CreamGod45
+		- Version : v1.0 
+	- ```main.css``` Main Model v1.2
+		- Author : CreamGod45
+		- Version : v1.0 
+- ## image 
+	- ### ALL FREE ASSETS
+- ## js 
+	- ```main.js``` Main Model v1.0
+		- Author : CreamGod45
+		- Version : v1.0 
+	- ```jquery-ui.min.css``` - ```jquery-ui.min.js``` - ```jquery-ui.structure.min.css``` - ```jquery-ui.theme.min.css``` - ```jquery.js``` - ```jquery.min.js```
